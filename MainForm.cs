@@ -2062,33 +2062,46 @@ namespace iSpyApplication
                             metroLabelStats.Text = LocRm.GetString("Offline");
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                Logger.LogException(ex);
+            }
 
-                if (Conf.ServicesEnabled && !WsWrapper.LoginFailed)
+            if (Conf.ServicesEnabled && !WsWrapper.LoginFailed)
+            {
+                if (NeedsSync)
                 {
-                    if (NeedsSync)
-                    {
-                        WsWrapper.ForceSync();
-                    }
-                    WsWrapper.PingServer();
+                    WsWrapper.ForceSync();
                 }
+                WsWrapper.PingServer();
+            }
 
 
-                _storageCounter++;
-                if (_storageCounter == 3600) // every hour
+            _storageCounter++;
+            if (_storageCounter == 3600) // every hour
+            {
+                RunStorageManagement();
+                _storageCounter = 0;
+            }
+
+
+            if (_pingCounter == 80)
+            {
+                var t = new Thread(SaveFileData) {IsBackground = true, Name = "Saving File Data"};
+                t.Start();
+            }
+
+            if (_needsDelete)
+            {
+                _needsDelete = false;
+                try
                 {
-                    RunStorageManagement();
-                    _storageCounter = 0;
                 }
-
-
-                if (_pingCounter == 80)
+                catch
                 {
-                    var t = new Thread(SaveFileData) {IsBackground = true, Name = "Saving File Data"};
-                    t.Start();
                 }
-
-                if (_needsDelete)
-                {
-                    _needsDelete = false;
-                    try
-                    {
+            }
+        }
+    }
+}
