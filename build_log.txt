@@ -1,0 +1,900 @@
+Microsoft (R) Build Engine, versi¢n 4.8.9032.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 21/9/2025 2:53:24?p.?m..
+Proyecto "D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj" en el nodo 1 (build destinos).
+El archivo del proyecto contiene ToolsVersion="12.0". Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versi¢n apropiada de MSBuild. Tambi‚n es posible que, por motivos de directiva, se haya exigido a la compilaci¢n que use un valor determinado para ToolsVersion. Se tratar  el proyecto como si contuviera ToolsVersion="4.0". Para obtener m s informaci¢n, vea http://go.microsoft.com/fwlink/?LinkId=291333.
+BclBuildEnsureBindingRedirects:
+Se omitir  el destino "BclBuildEnsureBindingRedirects" porque todos los archivos de salida est n actualizados respecto a los archivos de entrada.
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3257: La referencia principal "System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" no se pudo resolver porque su versi¢n es superior "4.0.3.0" a la existente en la versi¢n de .NET Framework de destino actual. La que se encuentra en la versi¢n de .NET Framework de destino actual es "4.0.2.0". [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3258: La referencia principal "System.Text.Json, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" no se pudo resolver porque tiene una dependencia indirecta del ensamblado de .NET Framework "System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" cuya versi¢n es superior "4.0.3.0" a la que hay en la versi¢n de .NET Framework de destino actual "4.0.2.0". [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3258: La referencia principal "RestSharp, Version=107.3.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL" no se pudo resolver porque tiene una dependencia indirecta del ensamblado de .NET Framework "System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" cuya versi¢n es superior "4.0.3.0" a la que hay en la versi¢n de .NET Framework de destino actual "4.0.2.0". [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Referencia principal "Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL".
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+          Para SearchPath "{CandidateAssemblyFiles}".
+          Se consider¢ "redist\WindowsServer2003-KB942288-v4-x64.exe", pero su nombre "WindowsServer2003-KB942288-v4-x64" no coincid¡a.
+          Se consider¢ "redist\WindowsServer2003-KB942288-v4-x86.exe", pero su nombre "WindowsServer2003-KB942288-v4-x86" no coincid¡a.
+          Se consider¢ "redist\WindowsXP-KB942288-v3-x86.exe", pero su nombre "WindowsXP-KB942288-v3-x86" no coincid¡a.
+          Se consider¢ "Supporting\iSpyMonitor.exe", pero su nombre "iSpyMonitor" no coincid¡a.
+          Se consider¢ "DLLS\AForge.dll", pero su nombre "AForge" no coincid¡a.
+          Se consider¢ "DLLS\AForge.Imaging.dll", pero su nombre "AForge.Imaging" no coincid¡a.
+          Se consider¢ "DLLS\AForge.Math.dll", pero su nombre "AForge.Math" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NATUPNPLib.dll", pero su nombre "Interop.NATUPNPLib" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NETCONLib.dll", pero su nombre "Interop.NETCONLib" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NetFwTypeLib.dll", pero su nombre "Interop.NetFwTypeLib" no coincid¡a.
+          Se consider¢ "DLLS\Microsoft.Kinect.dll", pero su nombre "Microsoft.Kinect" no coincid¡a.
+          Se consider¢ "DLLS\NAudio.dll", pero su nombre "NAudio" no coincid¡a.
+          Se consider¢ "DLLS\NAudio.Lame.dll", pero su nombre "NAudio.Lame" no coincid¡a.
+          Se consider¢ "DLLS\NSpeex.dll", pero su nombre "NSpeex" no coincid¡a.
+          Se consider¢ "DLLS\Renci.SshNet.dll", pero su nombre "Renci.SshNet" no coincid¡a.
+          Se consider¢ "DLLS\Renderers.dll", pero su nombre "Renderers" no coincid¡a.
+          Se consider¢ "DLLS\Windows7ToolStripRenderer.dll", pero su nombre "Windows7ToolStripRenderer" no coincid¡a.
+          Se consider¢ "DLLS\xiApi.NET.dll", pero su nombre "xiApi.NET" no coincid¡a.
+          Para SearchPath "{HintPathFromItem}".
+          Se consider¢ "..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll", pero no exist¡a.
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.exe", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.exe", pero no exist¡a.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+          Para SearchPath "{AssemblyFolders}".
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.exe", pero no exist¡a.
+          Para SearchPath "{GAC}".
+          Se consider¢ "Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL", que no se encuentra en la GAC.
+          Para SearchPath "{RawFileName}".
+          Se consider¢ tratar "Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" como nombre de archivo, pero no exist¡a.
+          Para SearchPath "bin\x64\Debug\".
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.winmd", pero no exist¡a.
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.dll", pero no exist¡a.
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.exe", pero no exist¡a.
+  Referencia principal "Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL".
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+          Para SearchPath "{CandidateAssemblyFiles}".
+          Se consider¢ "redist\WindowsServer2003-KB942288-v4-x64.exe", pero su nombre "WindowsServer2003-KB942288-v4-x64" no coincid¡a.
+          Se consider¢ "redist\WindowsServer2003-KB942288-v4-x86.exe", pero su nombre "WindowsServer2003-KB942288-v4-x86" no coincid¡a.
+          Se consider¢ "redist\WindowsXP-KB942288-v3-x86.exe", pero su nombre "WindowsXP-KB942288-v3-x86" no coincid¡a.
+          Se consider¢ "Supporting\iSpyMonitor.exe", pero su nombre "iSpyMonitor" no coincid¡a.
+          Se consider¢ "DLLS\AForge.dll", pero su nombre "AForge" no coincid¡a.
+          Se consider¢ "DLLS\AForge.Imaging.dll", pero su nombre "AForge.Imaging" no coincid¡a.
+          Se consider¢ "DLLS\AForge.Math.dll", pero su nombre "AForge.Math" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NATUPNPLib.dll", pero su nombre "Interop.NATUPNPLib" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NETCONLib.dll", pero su nombre "Interop.NETCONLib" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NetFwTypeLib.dll", pero su nombre "Interop.NetFwTypeLib" no coincid¡a.
+          Se consider¢ "DLLS\Microsoft.Kinect.dll", pero su nombre "Microsoft.Kinect" no coincid¡a.
+          Se consider¢ "DLLS\NAudio.dll", pero su nombre "NAudio" no coincid¡a.
+          Se consider¢ "DLLS\NAudio.Lame.dll", pero su nombre "NAudio.Lame" no coincid¡a.
+          Se consider¢ "DLLS\NSpeex.dll", pero su nombre "NSpeex" no coincid¡a.
+          Se consider¢ "DLLS\Renci.SshNet.dll", pero su nombre "Renci.SshNet" no coincid¡a.
+          Se consider¢ "DLLS\Renderers.dll", pero su nombre "Renderers" no coincid¡a.
+          Se consider¢ "DLLS\Windows7ToolStripRenderer.dll", pero su nombre "Windows7ToolStripRenderer" no coincid¡a.
+          Se consider¢ "DLLS\xiApi.NET.dll", pero su nombre "xiApi.NET" no coincid¡a.
+          Para SearchPath "{HintPathFromItem}".
+          Se consider¢ "..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll", pero no exist¡a.
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.Extensions.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.Extensions.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.Extensions.exe", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.Extensions.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.Extensions.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.Extensions.exe", pero no exist¡a.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+          Para SearchPath "{AssemblyFolders}".
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.Extensions.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.Extensions.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.Extensions.exe", pero no exist¡a.
+          Para SearchPath "{GAC}".
+          Se consider¢ "Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL", que no se encuentra en la GAC.
+          Para SearchPath "{RawFileName}".
+          Se consider¢ tratar "Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" como nombre de archivo, pero no exist¡a.
+          Para SearchPath "bin\x64\Debug\".
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.Extensions.winmd", pero no exist¡a.
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.Extensions.dll", pero no exist¡a.
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.Extensions.exe", pero no exist¡a.
+  Referencia principal "Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL".
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+          Para SearchPath "{CandidateAssemblyFiles}".
+          Se consider¢ "redist\WindowsServer2003-KB942288-v4-x64.exe", pero su nombre "WindowsServer2003-KB942288-v4-x64" no coincid¡a.
+          Se consider¢ "redist\WindowsServer2003-KB942288-v4-x86.exe", pero su nombre "WindowsServer2003-KB942288-v4-x86" no coincid¡a.
+          Se consider¢ "redist\WindowsXP-KB942288-v3-x86.exe", pero su nombre "WindowsXP-KB942288-v3-x86" no coincid¡a.
+          Se consider¢ "Supporting\iSpyMonitor.exe", pero su nombre "iSpyMonitor" no coincid¡a.
+          Se consider¢ "DLLS\AForge.dll", pero su nombre "AForge" no coincid¡a.
+          Se consider¢ "DLLS\AForge.Imaging.dll", pero su nombre "AForge.Imaging" no coincid¡a.
+          Se consider¢ "DLLS\AForge.Math.dll", pero su nombre "AForge.Math" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NATUPNPLib.dll", pero su nombre "Interop.NATUPNPLib" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NETCONLib.dll", pero su nombre "Interop.NETCONLib" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NetFwTypeLib.dll", pero su nombre "Interop.NetFwTypeLib" no coincid¡a.
+          Se consider¢ "DLLS\Microsoft.Kinect.dll", pero su nombre "Microsoft.Kinect" no coincid¡a.
+          Se consider¢ "DLLS\NAudio.dll", pero su nombre "NAudio" no coincid¡a.
+          Se consider¢ "DLLS\NAudio.Lame.dll", pero su nombre "NAudio.Lame" no coincid¡a.
+          Se consider¢ "DLLS\NSpeex.dll", pero su nombre "NSpeex" no coincid¡a.
+          Se consider¢ "DLLS\Renci.SshNet.dll", pero su nombre "Renci.SshNet" no coincid¡a.
+          Se consider¢ "DLLS\Renderers.dll", pero su nombre "Renderers" no coincid¡a.
+          Se consider¢ "DLLS\Windows7ToolStripRenderer.dll", pero su nombre "Windows7ToolStripRenderer" no coincid¡a.
+          Se consider¢ "DLLS\xiApi.NET.dll", pero su nombre "xiApi.NET" no coincid¡a.
+          Para SearchPath "{HintPathFromItem}".
+          Se consider¢ "..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll", pero no exist¡a.
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.Extensions.Desktop.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.Extensions.Desktop.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Threading.Tasks.Extensions.Desktop.exe", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.Extensions.Desktop.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.Extensions.Desktop.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Threading.Tasks.Extensions.Desktop.exe", pero no exist¡a.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+          Para SearchPath "{AssemblyFolders}".
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.Extensions.Desktop.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.Extensions.Desktop.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Threading.Tasks.Extensions.Desktop.exe", pero no exist¡a.
+          Para SearchPath "{GAC}".
+          Se consider¢ "Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL", que no se encuentra en la GAC.
+          Para SearchPath "{RawFileName}".
+          Se consider¢ tratar "Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" como nombre de archivo, pero no exist¡a.
+          Para SearchPath "bin\x64\Debug\".
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.winmd", pero no exist¡a.
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll", pero no exist¡a.
+          Se consider¢ "bin\x64\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.exe", pero no exist¡a.
+  Referencia principal "Zlib.Portable, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL".
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "Zlib.Portable, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+          Para SearchPath "{CandidateAssemblyFiles}".
+          Se consider¢ "redist\WindowsServer2003-KB942288-v4-x64.exe", pero su nombre "WindowsServer2003-KB942288-v4-x64" no coincid¡a.
+          Se consider¢ "redist\WindowsServer2003-KB942288-v4-x86.exe", pero su nombre "WindowsServer2003-KB942288-v4-x86" no coincid¡a.
+          Se consider¢ "redist\WindowsXP-KB942288-v3-x86.exe", pero su nombre "WindowsXP-KB942288-v3-x86" no coincid¡a.
+          Se consider¢ "Supporting\iSpyMonitor.exe", pero su nombre "iSpyMonitor" no coincid¡a.
+          Se consider¢ "DLLS\AForge.dll", pero su nombre "AForge" no coincid¡a.
+          Se consider¢ "DLLS\AForge.Imaging.dll", pero su nombre "AForge.Imaging" no coincid¡a.
+          Se consider¢ "DLLS\AForge.Math.dll", pero su nombre "AForge.Math" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NATUPNPLib.dll", pero su nombre "Interop.NATUPNPLib" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NETCONLib.dll", pero su nombre "Interop.NETCONLib" no coincid¡a.
+          Se consider¢ "DLLS\Interop.NetFwTypeLib.dll", pero su nombre "Interop.NetFwTypeLib" no coincid¡a.
+          Se consider¢ "DLLS\Microsoft.Kinect.dll", pero su nombre "Microsoft.Kinect" no coincid¡a.
+          Se consider¢ "DLLS\NAudio.dll", pero su nombre "NAudio" no coincid¡a.
+          Se consider¢ "DLLS\NAudio.Lame.dll", pero su nombre "NAudio.Lame" no coincid¡a.
+          Se consider¢ "DLLS\NSpeex.dll", pero su nombre "NSpeex" no coincid¡a.
+          Se consider¢ "DLLS\Renci.SshNet.dll", pero su nombre "Renci.SshNet" no coincid¡a.
+          Se consider¢ "DLLS\Renderers.dll", pero su nombre "Renderers" no coincid¡a.
+          Se consider¢ "DLLS\Windows7ToolStripRenderer.dll", pero su nombre "Windows7ToolStripRenderer" no coincid¡a.
+          Se consider¢ "DLLS\xiApi.NET.dll", pero su nombre "xiApi.NET" no coincid¡a.
+          Para SearchPath "{HintPathFromItem}".
+          Se consider¢ "..\packages\Zlib.Portable.1.11.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll", pero no exist¡a.
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Zlib.Portable.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Zlib.Portable.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Zlib.Portable.exe", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Zlib.Portable.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Zlib.Portable.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Zlib.Portable.exe", pero no exist¡a.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+          Para SearchPath "{AssemblyFolders}".
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Zlib.Portable.winmd", pero no exist¡a.
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Zlib.Portable.dll", pero no exist¡a.
+          Se consider¢ "C:\Program Files\IIS\Microsoft Web Deploy V3\Zlib.Portable.exe", pero no exist¡a.
+          Para SearchPath "{GAC}".
+          Se consider¢ "Zlib.Portable, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL", que no se encuentra en la GAC.
+          Para SearchPath "{RawFileName}".
+          Se consider¢ tratar "Zlib.Portable, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL" como nombre de archivo, pero no exist¡a.
+          Para SearchPath "bin\x64\Debug\".
+          Se consider¢ "bin\x64\Debug\Zlib.Portable.winmd", pero no exist¡a.
+          Se consider¢ "bin\x64\Debug\Zlib.Portable.dll", pero no exist¡a.
+          Se consider¢ "bin\x64\Debug\Zlib.Portable.exe", pero no exist¡a.
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3247: Se encontraron conflictos entre diferentes versiones del mismo ensamblado dependiente. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Ubicaci¢n de AssemblyFoldersEx: "{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}"
+          C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+          C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies
+          C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+CoreResGen:
+  No hay ning£n recurso obsoleto con respecto a sus archivos de origen. Se omitir  la generaci¢n de recursos.
+GenerateTargetFrameworkMonikerAttribute:
+Se omitir  el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida est n actualizados respecto a los archivos de entrada.
+CoreCompile:
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Csc.exe /noconfig /unsafe+ /nowarn:1701,1702 /nostdlib+ /platform:x64 /define:DEBUG;TRACE /main:Program /highentropyva+ /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\AForge.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\AForge.Imaging.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\AForge.Math.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\FFmpeg.AutoGen.4.2.2.1\lib\net45\FFmpeg.AutoGen.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\FlickrNet.3.26.0\lib\net20\FlickrNet.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Google.Apis.Auth.1.44.1\lib\net45\Google.Apis.Auth.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Google.Apis.Auth.1.44.1\lib\net45\Google.Apis.Auth.PlatformServices.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Google.Apis.Core.1.44.1\lib\net45\Google.Apis.Core.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Google.Apis.1.44.1\lib\net45\Google.Apis.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Google.Apis.Drive.v3.1.44.1.1888\lib\net45\Google.Apis.Drive.v3.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Google.Apis.1.44.1\lib\net45\Google.Apis.PlatformServices.dll" /link:"D:\Disco M\Desarrollos\iSpy-master\DLLS\Interop.NATUPNPLib.dll" /link:"D:\Disco M\Desarrollos\iSpy-master\DLLS\Interop.NETCONLib.dll" /link:"D:\Disco M\Desarrollos\iSpy-master\DLLS\Interop.NetFwTypeLib.dll" /link:"D:\Disco M\Desarrollos\iSpy-master\DLLS\x64\Interop.NETWORKLIST.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\LibVLCSharp.3.6.6\lib\net471\LibVLCSharp.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\LibVLCSharp.WinForms.3.6.6\lib\net40\LibVLCSharp.WinForms.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\log4net.2.0.14\lib\net45\log4net.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\Microsoft.Kinect.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\NAudio.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\NAudio.Lame.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\NSpeex.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\Renci.SshNet.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\Renderers.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\SharpDX.DirectInput.4.2.0\lib\net45\SharpDX.DirectInput.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\SharpDX.4.2.0\lib\net45\SharpDX.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Configuration.Install.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.EnterpriseServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.IO.Compression.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.IO.Compression.FileSystem.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Management.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Extensions.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.WebRequest.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Numerics.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Runtime.Serialization.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.ServiceModel.Channels.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.ServiceModel.Discovery.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.ServiceModel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Speech.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Web.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Web.Services.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xaml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\Windows7ToolStripRenderer.dll" /reference:"D:\Disco M\Desarrollos\iSpy-master\DLLS\xiApi.NET.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\Microsoft.Win32.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\netstandard.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.AppContext.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Collections.Concurrent.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Collections.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Collections.NonGeneric.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Collections.Specialized.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ComponentModel.Annotations.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ComponentModel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ComponentModel.EventBasedAsync.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ComponentModel.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ComponentModel.TypeConverter.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Console.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Data.Common.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Diagnostics.Contracts.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Diagnostics.Debug.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Diagnostics.FileVersionInfo.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Diagnostics.Process.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Diagnostics.StackTrace.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Diagnostics.TextWriterTraceListener.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Diagnostics.Tools.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Diagnostics.TraceSource.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Drawing.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Dynamic.Runtime.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Globalization.Calendars.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Globalization.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Globalization.Extensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.Compression.ZipFile.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.DriveInfo.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.Watcher.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.IsolatedStorage.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.MemoryMappedFiles.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.Pipes.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.IO.UnmanagedMemoryStream.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Linq.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Linq.Expressions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Linq.Parallel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Linq.Queryable.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.Http.Rtc.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.NameResolution.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.NetworkInformation.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.Ping.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.Requests.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.Security.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.Sockets.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.WebHeaderCollection.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.WebSockets.Client.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Net.WebSockets.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ObjectModel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Reflection.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.ILGeneration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.Lightweight.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Reflection.Extensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Reflection.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Resources.Reader.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Resources.ResourceManager.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Resources.Writer.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.CompilerServices.VisualC.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.Extensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.Handles.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.RuntimeInformation.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.Numerics.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Formatters.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Json.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Security.Claims.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Algorithms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Csp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Encoding.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.X509Certificates.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Security.Principal.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Security.SecureString.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ServiceModel.Duplex.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ServiceModel.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ServiceModel.NetTcp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ServiceModel.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ServiceModel.Security.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Text.Encoding.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Text.Encoding.Extensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Text.RegularExpressions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Threading.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Threading.Overlapped.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Threading.Tasks.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Threading.Tasks.Parallel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Threading.Thread.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Threading.ThreadPool.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Threading.Timer.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.ValueTuple.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Xml.ReaderWriter.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Xml.XDocument.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Xml.XmlDocument.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Xml.XmlSerializer.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Xml.XPath.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\System.Xml.XPath.XDocument.dll" /debug+ /optimize- /out:obj\x64\Debug\iSpy.exe /subsystemversion:6.00 /resource:obj\x64\Debug\iSpyApplication.AboutForm.resources /resource:obj\x64\Debug\iSpyApplication.AddCamera.resources /resource:obj\x64\Debug\iSpyApplication.AddFloorPlan.resources /resource:obj\x64\Debug\iSpyApplication.AddRemoteCommand.resources /resource:obj\x64\Debug\iSpyApplication.CommandButtons.resources /resource:obj\x64\Debug\iSpyApplication.Controls.ActionEditor.resources /resource:obj\x64\Debug\iSpyApplication.Controls.AddCommandButton.resources /resource:obj\x64\Debug\iSpyApplication.Controls.AlertEventRow.resources /resource:obj\x64\Debug\iSpyApplication.Controls.AlertSettings.resources /resource:obj\x64\Debug\iSpyApplication.Controls.Authorizer.resources /resource:obj\x64\Debug\iSpyApplication.Controls.CameraWindow.resources /resource:obj\x64\Debug\iSpyApplication.Controls.CommandButtonControl.resources /resource:obj\x64\Debug\iSpyApplication.Controls.CopyTo.resources /resource:obj\x64\Debug\iSpyApplication.Controls.DirectoryEventRow.resources /resource:obj\x64\Debug\iSpyApplication.Controls.EditCommandButton.resources /resource:obj\x64\Debug\iSpyApplication.Controls.Filter.resources /resource:obj\x64\Debug\iSpyApplication.Controls.FTPConfig.resources /resource:obj\x64\Debug\iSpyApplication.Controls.FTPEditor.resources /resource:obj\x64\Debug\iSpyApplication.Controls.GridViewCamera.resources /resource:obj\x64\Debug\iSpyApplication.Controls.GridViewCustom.resources /resource:obj\x64\Debug\iSpyApplication.Controls.GridViewModeConfig.resources /resource:obj\x64\Debug\iSpyApplication.Controls.IntervalConfig.resources /resource:obj\x64\Debug\iSpyApplication.Controls.jaxis.resources /resource:obj\x64\Debug\iSpyApplication.Controls.jbutton.resources /resource:obj\x64\Debug\iSpyApplication.Controls.MediaDirectoryConfig.resources /resource:obj\x64\Debug\iSpyApplication.Controls.MediaDirectoryEditor.resources /resource:obj\x64\Debug\iSpyApplication.Controls.MediaPanelControl.resources /resource:obj\x64\Debug\iSpyApplication.Controls.ONVIFWizard.resources /resource:obj\x64\Debug\iSpyApplication.Controls.ParamConfig.resources /resource:obj\x64\Debug\iSpyApplication.Controls.PermissionsForm.resources /resource:obj\x64\Debug\iSpyApplication.Controls.PiPConfig.resources /resource:obj\x64\Debug\iSpyApplication.Controls.PiPSelector.resources /resource:obj\x64\Debug\iSpyApplication.Controls.PTZScheduler.resources /resource:obj\x64\Debug\iSpyApplication.Controls.PTZTracking.resources /resource:obj\x64\Debug\iSpyApplication.Controls.PTZUI.resources /resource:obj\x64\Debug\iSpyApplication.Controls.ScheduleEditor.resources /resource:obj\x64\Debug\iSpyApplication.Controls.ScheduleEntryEditor.resources /resource:obj\x64\Debug\iSpyApplication.Controls.ScheduleRow.resources /resource:obj\x64\Debug\iSpyApplication.Controls.SelectObjects.resources /resource:obj\x64\Debug\iSpyApplication.Controls.ServerEventRow.resources /resource:obj\x64\Debug\iSpyApplication.Controls.TagEditor.resources /resource:obj\x64\Debug\iSpyApplication.Controls.TagEntry.resources /resource:obj\x64\Debug\iSpyApplication.Controls.TextToSpeech.resources /resource:obj\x64\Debug\iSpyApplication.Controls.VideoPlayback.resources /resource:obj\x64\Debug\iSpyApplication.Features.resources /resource:obj\x64\Debug\iSpyApplication.FindObject.resources /resource:obj\x64\Debug\iSpyApplication.GridViewManager.resources /resource:obj\x64\Debug\iSpyApplication.Importer.resources /resource:obj\x64\Debug\iSpyApplication.Kinect.ConfigureTripWires.resources /resource:obj\x64\Debug\iSpyApplication.Controls.AngleSelector.resources /resource:obj\x64\Debug\iSpyApplication.CameraMicSource.resources /resource:obj\x64\Debug\iSpyApplication.CheckPassword.resources /resource:obj\x64\Debug\iSpyApplication.AddMicrophone.resources /resource:obj\x64\Debug\iSpyApplication.ConfigureProcessor.resources /resource:obj\x64\Debug\iSpyApplication.ConfigureTimestamp.resources /resource:obj\x64\Debug\iSpyApplication.ConfigureObjectCount.resources /resource:obj\x64\Debug\iSpyApplication.ConfigureRepeat.resources /resource:obj\x64\Debug\iSpyApplication.Controls.Ranger.resources /resource:obj\x64\Debug\iSpyApplication.Controls.GridView.resources /resource:obj\x64\Debug\iSpyApplication.downloader.resources /resource:obj\x64\Debug\iSpyApplication.GridView.resources /resource:obj\x64\Debug\iSpyApplication.Kinect.EditDepthLine.resources /resource:obj\x64\Debug\iSpyApplication.Merger.resources /resource:obj\x64\Debug\iSpyApplication.MicrophoneSourceAdvanced.resources /resource:obj\x64\Debug\iSpyApplication.NotSubscribed.resources /resource:obj\x64\Debug\iSpyApplication.Pager.resources /resource:obj\x64\Debug\iSpyApplication.Pelco.PelcoConfig.resources /resource:obj\x64\Debug\iSpyApplication.PlayerVLC.resources /resource:obj\x64\Debug\iSpyApplication.Prompt.resources /resource:obj\x64\Debug\iSpyApplication.PTZConfig.resources /resource:obj\x64\Debug\iSpyApplication.PTZTool.resources /resource:obj\x64\Debug\iSpyApplication.ShareCamera.resources /resource:obj\x64\Debug\iSpyApplication.SSLConfig.resources /resource:obj\x64\Debug\iSpyApplication.TagConfigure.resources /resource:obj\x64\Debug\iSpyApplication.Utilities.ScreenArea.resources /resource:obj\x64\Debug\iSpyApplication.VideoSourceAdvanced.resources /resource:obj\x64\Debug\iSpyApplication.Controls.VolumeLevel.resources /resource:obj\x64\Debug\iSpyApplication.FindCameras.resources /resource:obj\x64\Debug\iSpyApplication.GettingStarted.resources /resource:obj\x64\Debug\iSpyApplication.HSLFilteringForm.resources /resource:obj\x64\Debug\iSpyApplication.NetworkTroubleshooter.resources /resource:obj\x64\Debug\iSpyApplication.Controls.FloorPlanControl.resources /resource:obj\x64\Debug\iSpyApplication.ConfigureSeconds.resources /resource:obj\x64\Debug\iSpyApplication.LayoutEditor.resources /resource:obj\x64\Debug\iSpyApplication.MicrophoneSource.resources /resource:obj\x64\Debug\iSpyApplication.RemoteCommands.resources /resource:obj\x64\Debug\iSpyApplication.Controls.VideoNavigator.resources /resource:obj\x64\Debug\iSpyApplication.ViewController.resources /resource:obj\x64\Debug\iSpyApplication.VideoSource.resources /resource:obj\x64\Debug\iSpyApplication.Settings.resources /resource:obj\x64\Debug\iSpyApplication.VirtualDeviceManager.resources /resource:obj\x64\Debug\iSpyApplication.Webservices.resources /resource:obj\x64\Debug\iSpyApplication.MainForm.resources /resource:obj\x64\Debug\iSpyApplication.Properties.Resources.resources /resource:obj\x64\Debug\iSpyApplication.Controls.AreaSelector.resources /resource:obj\x64\Debug\iSpyApplication.NewVersion.resources /resource:Resources\1.gif,iSpyApplication.Resources.1.gif /resource:Resources\2.gif,iSpyApplication.Resources.2.gif /resource:Resources\3.gif,iSpyApplication.Resources.3.gif /resource:Resources\4.gif,iSpyApplication.Resources.4.gif /resource:Resources\5.gif,iSpyApplication.Resources.5.gif /resource:Resources\6.gif,iSpyApplication.Resources.6.gif /resource:Resources\7.gif,iSpyApplication.Resources.7.gif /resource:Resources\8.gif,iSpyApplication.Resources.8.gif /resource:Resources\9.gif,iSpyApplication.Resources.9.gif /target:winexe /utf8output /win32icon:ispy.ico /win32manifest:app.manifest AboutForm.cs AddFloorPlan.cs AddFloorPlan.Designer.cs AddRemoteCommand.cs AddRemoteCommand.Designer.cs CameraDiscovery\CameraScanner.cs CameraDiscovery\URLDiscovery.cs Cloud\Box.cs Cloud\CloudGateway.cs Cloud\Drive.cs Cloud\Dropbox.cs Cloud\Flickr.cs Cloud\OneDrive.cs Cloud\YouTubeUploader.cs CommandButtons.cs CommandButtons.Designer.cs Controls\Authorizer.cs Controls\Authorizer.Designer.cs Controls\AutoCompleteTextbox.cs Controls\ColorSlider.cs Controls\HuePicker.cs Controls\ONVIFWizard.cs Controls\ONVIFWizard.Designer.cs Controls\PictureBox.cs Controls\PTZUI.cs Controls\PTZUI.Designer.cs Controls\ScheduleEditor.cs Controls\ScheduleEditor.Designer.cs Controls\ScheduleEntryEditor.cs Controls\ScheduleEntryEditor.Designer.cs Controls\ScheduleRow.cs Controls\ScheduleRow.Designer.cs Controls\TagEditor.cs Controls\TagEditor.Designer.cs Controls\TagEntry.cs Controls\TagEntry.Designer.cs FindObject.cs FindObject.Designer.cs Importer.cs Importer.Designer.cs Onvif\Behaviour\CustomAddressHeader.cs Onvif\Behaviour\CustomEndpointBehavior.cs Onvif\Behaviour\CustomMessageInspector.cs Onvif\ConnectionParameters.cs Onvif\ConnectionStateInfo.cs Onvif\Discovery.cs Onvif\IOnvifClientFactory.cs Onvif\MulticastCapabilitiesBindingElement.cs Onvif\NetworkCredentialExtensions.cs Onvif\OnvifClientFactory.cs Onvif\ONVIFDevice.cs Onvif\Security\DigestSecurityHeader.cs Onvif\Security\SecurityToken.cs PlayerVLC.cs PlayerVLC.Designer.cs PTZCommandButtons.cs PTZCommandButtons.Designer.cs PTZConfig.cs PTZConfig.Designer.cs Realtime\MediaWriter.cs Server\Conf.cs Server\ConnectionOption.cs Server\HTTPRequest.cs Server\JSONServer.cs Server\NetworkDeviceList.cs Server\RestartableStream.cs Server\Scanner.cs Server\SourceItem.cs Server\WebSocketConnection.cs Server\WebSocketServer.cs Server\X509.cs "Service References\OnvifServices\Reference.cs" Sources\Audio\AudioReader.cs Sources\Audio\talk\TalkAmcrest.cs Sources\Audio\talk\TalkDoorbird.cs Sources\Audio\talk\TalkFoscam.cs Sources\Audio\talk\WaveFormatConverter.cs Sources\Video\FFmpegBase.cs Sources\Video\MediaStream.cs Sources\Video\Tokeniser.cs Sources\Video\VideoBase.cs TagConfigure.cs TagConfigure.Designer.cs Utilities\ConnectionFactory.cs Controls\ActionEditor.cs Controls\ActionEditor.Designer.cs Controls\AddCommandButton.cs Controls\AddCommandButton.Designer.cs Controls\AlertEventRow.cs Controls\AlertEventRow.Designer.cs Controls\AlertSettings.cs Controls\AlertSettings.Designer.cs Controls\AppLoop.cs Controls\CameraWindow.cs Controls\CommandButtonControl.cs Controls\CommandButtonControl.Designer.cs Controls\CopyTo.cs Controls\CopyTo.Designer.cs Controls\DirectoryEventRow.cs Controls\DirectoryEventRow.Designer.cs Controls\EditCommandButton.cs Controls\EditCommandButton.Designer.cs Controls\Filter.cs Controls\Filter.Designer.cs Controls\FishEyeCorrect.cs Controls\FlowLayoutPanelTransparent.cs Controls\FolderSelectDialog.cs Controls\FTPConfig.cs Controls\FTPConfig.Designer.cs Controls\FTPEditor.cs Controls\FTPEditor.Designer.cs Controls\GraphicsHelper.cs Controls\GridViewCamera.cs Controls\GridViewCamera.Designer.cs Controls\GridViewCustom.cs Controls\GridViewCustom.Designer.cs Controls\GridViewItem.cs Controls\GridViewModeConfig.cs Controls\GridViewModeConfig.Designer.cs Controls\IntervalConfig.cs Controls\IntervalConfig.Designer.cs Controls\ISpyControl.cs Controls\jaxis.cs Controls\jaxis.Designer.cs Controls\jbutton.cs Controls\jbutton.Designer.cs Controls\MediaDirectoryConfig.cs Controls\MediaDirectoryConfig.Designer.cs Controls\MediaDirectoryEditor.cs Controls\MediaDirectoryEditor.Designer.cs Controls\MediaPanel.cs Controls\MediaPanel.Designer.cs Controls\MediaPanelControl.cs Controls\MediaPanelControl.Designer.cs Controls\MediaPanelControlButton.cs Controls\ParamConfig.cs Controls\ParamConfig.Designer.cs Controls\PermissionsForm.cs Controls\PermissionsForm.Designer.cs Controls\PiPConfig.cs Controls\PiPConfig.Designer.cs Controls\PiPSelector.cs Controls\PiPSelector.Designer.cs Controls\PTZScheduler.cs Controls\PTZScheduler.Designer.cs Controls\PTZTracking.cs Controls\PTZTracking.Designer.cs Controls\Reflector.cs Controls\SelectObjects.cs Controls\SelectObjects.Designer.cs Controls\ServerEventRow.cs Controls\ServerEventRow.Designer.cs Controls\TextToSpeech.cs Controls\TextToSpeech.Designer.cs Controls\ThreadSafeCommand.cs Controls\VideoPlayback.cs Delegates.cs DirectShow\CameraControlProperty.cs DirectShow\FilterInfo.cs DirectShow\FilterInfoCollection.cs DirectShow\Internals\IAMCameraControl.cs DirectShow\Internals\IAMCrossbar.cs DirectShow\Internals\IAMStreamConfig.cs DirectShow\Internals\IAMVfwCompressDialogs.cs DirectShow\Internals\IAMVideoControl.cs DirectShow\Internals\IAMVideoProcAmp.cs DirectShow\Internals\IBaseFilter.cs DirectShow\Internals\ICaptureGraphBuilder2.cs DirectShow\Internals\ICreateDevEnum.cs DirectShow\Internals\IEnumFilters.cs DirectShow\Internals\IEnumPins.cs DirectShow\Internals\IFileSourceFilter.cs DirectShow\Internals\IFilterGraph.cs DirectShow\Internals\IFilterGraph2.cs DirectShow\Internals\IGraphBuilder.cs DirectShow\Internals\IMediaControl.cs DirectShow\Internals\IMediaEventEx.cs DirectShow\Internals\IMediaFilter.cs DirectShow\Internals\IPersist.cs DirectShow\Internals\IPin.cs DirectShow\Internals\IPropertyBag.cs DirectShow\Internals\IReferenceClock.cs DirectShow\Internals\ISampleGrabber.cs DirectShow\Internals\ISampleGrabberCB.cs DirectShow\Internals\ISpecifyPropertyPages.cs DirectShow\Internals\IVideoWindow.cs DirectShow\Internals\Structures.cs DirectShow\Internals\Tools.cs DirectShow\Internals\Uuids.cs DirectShow\PhysicalConnectorType.cs DirectShow\Uuids.cs DirectShow\VideoCapabilities.cs DirectShow\VideoInput.cs EncDec.cs Events.cs Features.cs Features.Designer.cs GridViewManager.cs GridViewManager.Designer.cs Joystick\JoystickDevice.cs Kinect\ConfigureTripWires.cs Kinect\ConfigureTripWires.Designer.cs Controls\AngleSelector.cs Controls\AngleSelector.designer.cs Controls\AreaSelector.cs Controls\AreaSelector.Designer.cs CameraMicSource.cs CameraMicSource.Designer.cs ConfigureSeconds.cs ConfigureSeconds.Designer.cs ConfigureProcessor.cs ConfigureProcessor.Designer.cs ConfigureTimestamp.cs ConfigureTimestamp.Designer.cs ConfigureObjectCount.cs ConfigureObjectCount.Designer.cs ConfigureRepeat.cs ConfigureRepeat.Designer.cs Controls\ClipboardTextBox.cs Controls\ClipboardTextBox.Designer.cs Controls\Ranger.cs Controls\Ranger.designer.cs Controls\GridView.cs downloader.cs downloader.Designer.cs FileOperations.cs GridView.cs GridView.Designer.cs Kinect\DepthLine.cs Kinect\EditDepthLine.cs Kinect\EditDepthLine.Designer.cs Kinect\TripWireEditor.cs LayoutItem.cs Mailer.cs MainForm_Commands.cs MainForm_Configuration.cs MainForm_Media.cs Merger.cs Merger.Designer.cs MicrophoneSourceAdvanced.cs MicrophoneSourceAdvanced.Designer.cs MimeTypes.cs NotSubscribed.cs NotSubscribed.Designer.cs Pager.cs Pager.Designer.cs Pelco\D.cs Pelco\P.cs Pelco\PelcoConfig.cs Pelco\PelcoConfig.Designer.cs Prompt.cs Prompt.Designer.cs PTZController.cs PTZTool.cs PTZTool.Designer.cs RestartableStream.cs SerializableFont.cs Server\LocalServer.cs ShareCamera.cs ShareCamera.Designer.cs Sources\Audio\AudioEvents.cs Sources\Audio\AudioSynth.cs Sources\Audio\CodecList.cs Sources\Audio\codecs\AcmChatCodec.cs Sources\Audio\codecs\ALawChatCodec.cs Sources\Audio\codecs\G722ChatCodec.cs Sources\Audio\codecs\Gsm610ChatCodec.cs Sources\Audio\codecs\INetworkChatCodec.cs Sources\Audio\codecs\MicrosoftAdpcmChatCodec.cs Sources\Audio\codecs\MuLawChatCodec.cs Sources\Audio\codecs\SpeexChatCodec.cs Sources\Audio\codecs\TrueSpeechChatCodec.cs Sources\Audio\codecs\UncompressedPcmChatCodec.cs Sources\Audio\g711audio.cs Sources\Audio\GainHelper.cs Sources\Audio\IAudioSource.cs Sources\Audio\ISupportsAudio.cs Sources\Audio\SampleAggregator.cs Sources\Audio\SpeechStreamer.cs Sources\Audio\SpeechSynth.cs Sources\Audio\streams\AudioInStream.cs Sources\Audio\streams\DirectStream.cs Sources\Audio\streams\iSpyServerStream.cs Sources\Audio\streams\LocalDeviceStream.cs Sources\Audio\streams\MP3Stream.cs Sources\Audio\streams\WavStream.cs Sources\Audio\streams\WebStream.cs Sources\Audio\talk\ITalkTarget.cs Sources\Audio\talk\TalkAxis.cs Sources\Audio\talk\TalkDeviceStream.cs Sources\Audio\talk\TalkHelper.cs Sources\Audio\talk\TalkHelperStream.cs Sources\Audio\talk\TalkIPWebcamAndroid.cs Sources\Audio\talk\TalkiSpyServer.cs Sources\Audio\talk\TalkLocal.cs Sources\Audio\talk\TalkNetworkKinect.cs Sources\Audio\VolumeWaveProvider16.cs Sources\PlayEvents.cs Sources\Video\CloneStream.cs Sources\Video\DesktopStream.cs Sources\Video\discovery\localdevice.cs Sources\Video\IVideoSource.cs Sources\Video\JPEGStream.cs Sources\Video\KinectNetworkStream.cs Sources\Video\KinectStream.cs Sources\Video\MJPEGStream.cs Sources\Video\VideoCaptureDevice.cs Sources\Video\VLCStream.cs Sources\Video\Ximea\CameraParameter.cs Sources\Video\Ximea\GpiMode.cs Sources\Video\Ximea\GpoMode.cs Sources\Video\Ximea\ImageFormat.cs Sources\Video\Ximea\Internal\ParameterType.cs Sources\Video\Ximea\Internal\XimeaAPI.cs Sources\Video\Ximea\Internal\XimeaImage.cs Sources\Video\Ximea\LedMode.cs Sources\Video\Ximea\TriggerSource.cs Sources\Video\Ximea\XimeaCamera.cs Sources\Video\Ximea\XimeaVideoSource.cs SSLConfig.cs SSLConfig.Designer.cs Utilities\ConnectionOptions.cs Utilities\Logger.cs Utilities\NativeMethods.cs Utilities\NetworkBrowser.cs Utilities\ReadFullyStream.cs Utilities\RequestState.cs Utilities\ScreenArea.cs Utilities\ScreenArea.Designer.cs Utilities\VLCHelper.cs VideoSourceAdvanced.cs VideoSourceAdvanced.Designer.cs Controls\VolumeLevel.cs Controls\VolumeLevel.Designer.cs FindCameras.cs FindCameras.Designer.cs GettingStarted.cs GettingStarted.Designer.cs HSLFilteringForm.cs Controls\LayoutPanel.cs ListNetworkComputers.cs MCRemote.cs NativeCalls.cs NetworkTroubleshooter.cs NetworkTroubleshooter.Designer.cs Controls\PreviewBox.cs QueueWithEvents.cs Screensaver.cs Controls\VideoNavigator.cs Controls\VideoNavigator.Designer.cs ViewController.cs ViewController.Designer.cs Controls\ViewControllerPanel.cs AssemblyInfo.cs ByteArrayUtils.cs C2BPProcessor.cs Controls\Camera.cs AddCamera.cs AddCamera.Designer.cs CheckPassword.cs CheckPassword.Designer.cs AddMicrophone.cs AddMicrophone.Designer.cs C2BPComparers.cs LocRM.cs Firewall.cs Controls\FloorPlan.cs Controls\FloorPlan.Designer.cs extensions.cs ftp.cs Helper.cs LayoutEditor.cs LayoutEditor.Designer.cs MicrophoneSource.cs MicrophoneSource.Designer.cs NewVersion.cs Enums.cs Controls\PersistForm.cs RemoteCommands.cs RemoteCommands.Designer.cs upnp.cs VideoSource.cs VideoSource.Designer.cs Settings.cs Settings.Designer.cs Program.cs Properties\Settings.Designer.cs VirtualDeviceManager.cs VirtualDeviceManager.Designer.cs Vision\BlobCountingObjectsProcessing.cs Vision\CustomFrameColorDifferenceDetector.cs Vision\CustomFrameDifferenceDetector.cs Vision\GridMotionAreaProcessing.cs Vision\IMotionDetector.cs Vision\IMotionProcessing.cs Vision\MotionAreaHighlighting.cs Vision\MotionBorderHighlighting.cs Vision\MotionDetector.cs Vision\SimpleBackgroundModelingDetector.cs Vision\SimpleColorBackgroundModelingDetector.cs Vision\Tools.cs Vision\TwoFramesColorDifferenceDetector.cs Vision\TwoFramesDifferenceDetector.cs "Web References\iSpyWS\Reference.cs" "Web References\Reporting\Reference.cs" Webservices.cs Webservices.Designer.cs MainForm.cs Properties\Resources.Designer.cs WinAPI.cs WSWrapper.cs X509.cs XML\config.cs XML\filelist.cs XML\objects.cs XML\ptz2.cs XML\Sources.cs XML\Translations.cs "C:\Users\jdiaz\AppData\Local\Temp\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"
+CameraDiscovery\CameraScanner.cs(57,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+CameraDiscovery\CameraScanner.cs(57,52): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+CameraDiscovery\CameraScanner.cs(57,63): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+CameraDiscovery\URLDiscovery.cs(142,38): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Box.cs(23,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Box.cs(23,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Drive.cs(27,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Drive.cs(27,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Dropbox.cs(183,31): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Dropbox.cs(22,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Dropbox.cs(22,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Flickr.cs(21,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\Flickr.cs(21,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\OneDrive.cs(200,31): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\OneDrive.cs(23,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Cloud\OneDrive.cs(23,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\AutoCompleteTextbox.cs(130,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\AutoCompleteTextbox.cs(130,51): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Onvif\Behaviour\CustomMessageInspector.cs(13,53): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Onvif\Behaviour\CustomMessageInspector.cs(13,78): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Onvif\ConnectionStateInfo.cs(17,20): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Onvif\ConnectionStateInfo.cs(7,44): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Onvif\ConnectionStateInfo.cs(7,61): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Onvif\Security\DigestSecurityHeader.cs(25,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Onvif\Security\DigestSecurityHeader.cs(27,42): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Realtime\MediaWriter.cs(91,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Realtime\MediaWriter.cs(91,39): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(14,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(14,61): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(16,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(16,61): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(40,27): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(40,35): error CS1519: Invalid token '.' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(40,36): error CS1520: Method must have a return type [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(40,47): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(40,62): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\ConnectionOption.cs(42,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\NetworkDeviceList.cs(16,55): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\NetworkDeviceList.cs(16,82): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\RestartableStream.cs(116,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\RestartableStream.cs(118,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\RestartableStream.cs(120,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\RestartableStream.cs(122,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\X509.cs(14,54): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\X509.cs(14,72): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\X509.cs(16,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\X509.cs(16,67): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Server\X509.cs(16,86): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkAmcrest.cs(52,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkAmcrest.cs(52,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkDoorbird.cs(95,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkDoorbird.cs(95,43): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkFoscam.cs(324,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkFoscam.cs(324,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ConnectionFactory.cs(31,39): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ConnectionFactory.cs(35,44): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ConnectionFactory.cs(45,40): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ConnectionFactory.cs(46,40): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ConnectionFactory.cs(48,34): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ConnectionFactory.cs(50,20): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ConnectionFactory.cs(51,20): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\AppLoop.cs(20,55): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\AppLoop.cs(20,68): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(1732,37): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2343,17): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2632,29): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2636,41): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2919,21): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(3239,29): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(85,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(138,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(138,44): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(295,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(295,51): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(296,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(296,52): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(298,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(298,42): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(298,75): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(300,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(300,60): error CS1519: Invalid token '>' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(302,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(302,44): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(302,64): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(302,89): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(304,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(304,42): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(304,62): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(304,89): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(306,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(308,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(310,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(310,57): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2527,32): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2527,48): error CS1519: Invalid token '||' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2527,59): error CS1519: Invalid token '||' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2527,68): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2978,55): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\CameraWindow.cs(2978,78): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VideoPlayback.cs(433,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VideoPlayback.cs(433,50): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\FilterInfoCollection.cs(52,43): error CS1514: { expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\FilterInfoCollection.cs(52,59): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\FilterInfoCollection.cs(52,70): error CS1519: Invalid token '[' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\FilterInfoCollection.cs(52,78): error CS1031: Type expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\FilterInfoCollection.cs(52,78): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\VideoCapabilities.cs(77,25): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\VideoCapabilities.cs(29,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\VideoCapabilities.cs(29,49): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\VideoInput.cs(34,42): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\VideoInput.cs(34,61): error CS1031: Type expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+DirectShow\VideoInput.cs(34,95): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(78,33): error CS1513: } expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(79,24): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(79,28): error CS1519: Invalid token 'as' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(79,43): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(80,24): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(80,28): error CS1519: Invalid token 'as' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(80,42): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(83,17): error CS0116: A namespace cannot directly contain members such as fields or methods [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(86,41): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(86,60): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(86,78): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(153,37): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(153,54): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(157,17): error CS0116: A namespace cannot directly contain members such as fields or methods [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(167,47): error CS1001: Identifier expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(167,73): error CS1003: Syntax error, ']' expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Commands.cs(195,21): error CS1022: Type or namespace definition, or end-of-file expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(768,41): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(3616,25): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(3823,25): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(144,57): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(144,74): error CS1519: Invalid token '??' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(144,92): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(144,98): error CS1520: Method must have a return type [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(144,150): error CS1001: Identifier expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Configuration.cs(144,151): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm_Media.cs(233,47): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Merger.cs(115,28): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+PTZController.cs(114,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+PTZController.cs(114,66): error CS1519: Invalid token '==' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+RestartableStream.cs(116,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+RestartableStream.cs(118,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+RestartableStream.cs(120,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+RestartableStream.cs(122,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\AcmChatCodec.cs(63,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\AcmChatCodec.cs(63,75): error CS1519: Invalid token '8' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\ALawChatCodec.cs(13,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\ALawChatCodec.cs(19,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\ALawChatCodec.cs(21,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\ALawChatCodec.cs(21,63): error CS1519: Invalid token '8' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\ALawChatCodec.cs(23,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\ALawChatCodec.cs(23,47): error CS1520: Method must have a return type [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\ALawChatCodec.cs(23,58): error CS1031: Type expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\ALawChatCodec.cs(54,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\G722ChatCodec.cs(23,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\G722ChatCodec.cs(25,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\G722ChatCodec.cs(25,45): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\G722ChatCodec.cs(60,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\Gsm610ChatCodec.cs(12,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MicrosoftAdpcmChatCodec.cs(12,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MuLawChatCodec.cs(14,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MuLawChatCodec.cs(20,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MuLawChatCodec.cs(22,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MuLawChatCodec.cs(22,63): error CS1519: Invalid token '8' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MuLawChatCodec.cs(24,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MuLawChatCodec.cs(24,47): error CS1520: Method must have a return type [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MuLawChatCodec.cs(24,58): error CS1031: Type expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\MuLawChatCodec.cs(55,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\SpeexChatCodec.cs(51,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\SpeexChatCodec.cs(53,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\SpeexChatCodec.cs(53,59): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\SpeexChatCodec.cs(100,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\TrueSpeechChatCodec.cs(18,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\UncompressedPcmChatCodec.cs(12,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\UncompressedPcmChatCodec.cs(30,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\UncompressedPcmChatCodec.cs(30,74): error CS1519: Invalid token '8' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\codecs\UncompressedPcmChatCodec.cs(34,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\SampleAggregator.cs(81,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\SampleAggregator.cs(81,59): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\SpeechStreamer.cs(27,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\SpeechStreamer.cs(29,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\SpeechStreamer.cs(31,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\SpeechStreamer.cs(33,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\AudioInStream.cs(11,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\AudioInStream.cs(57,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\AudioInStream.cs(81,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\DirectStream.cs(25,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\DirectStream.cs(80,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\iSpyServerStream.cs(23,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\LocalDeviceStream.cs(18,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\LocalDeviceStream.cs(133,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\LocalDeviceStream.cs(133,42): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\MP3Stream.cs(19,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\WavStream.cs(17,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\WebStream.cs(19,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\WebStream.cs(76,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\streams\WebStream.cs(76,57): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkAxis.cs(95,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkAxis.cs(95,43): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkDeviceStream.cs(130,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkDeviceStream.cs(130,44): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkIPWebcamAndroid.cs(50,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkIPWebcamAndroid.cs(50,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkiSpyServer.cs(51,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkiSpyServer.cs(51,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkLocal.cs(81,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkNetworkKinect.cs(87,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\talk\TalkNetworkKinect.cs(87,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\VolumeWaveProvider16.cs(41,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Audio\VolumeWaveProvider16.cs(41,67): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\CloneStream.cs(35,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\CloneStream.cs(35,48): error CS1519: Invalid token '==' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\CloneStream.cs(35,76): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\CloneStream.cs(37,52): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\CloneStream.cs(43,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\CloneStream.cs(43,43): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\CloneStream.cs(43,71): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\discovery\localdevice.cs(61,94): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\discovery\localdevice.cs(67,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\discovery\localdevice.cs(67,86): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\discovery\localdevice.cs(69,35): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\discovery\localdevice.cs(69,79): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(269,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(269,42): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(269,66): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(279,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(279,51): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(289,41): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(289,54): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(298,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(453,36): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VideoCaptureDevice.cs(453,52): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VLCStream.cs(19,7): error CS1041: Identifier expected; 'static' is a keyword [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\VLCStream.cs(19,14): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\Ximea\XimeaCamera.cs(742,37): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\Ximea\XimeaCamera.cs(108,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\Ximea\XimeaCamera.cs(108,41): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\Ximea\XimeaVideoSource.cs(87,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Sources\Video\Ximea\XimeaVideoSource.cs(87,61): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ReadFullyStream.cs(19,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ReadFullyStream.cs(21,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ReadFullyStream.cs(23,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ReadFullyStream.cs(30,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Utilities\ReadFullyStream.cs(30,44): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(1611,29): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(64,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(66,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(66,44): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(438,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(438,52): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(439,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(439,51): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(441,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(443,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(445,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(447,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(449,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(453,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(1395,32): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(1395,48): error CS1519: Invalid token '||' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(1395,58): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(2723,55): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\VolumeLevel.cs(2723,78): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+HSLFilteringForm.cs(187,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+HSLFilteringForm.cs(187,41): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+NetworkTroubleshooter.cs(91,52): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+NetworkTroubleshooter.cs(96,21): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+NetworkTroubleshooter.cs(117,56): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+NetworkTroubleshooter.cs(140,60): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+QueueWithEvents.cs(20,26): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+QueueWithEvents.cs(20,41): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\camera.cs(739,25): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\camera.cs(321,26): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\camera.cs(321,35): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\camera.cs(324,27): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\camera.cs(324,37): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+LocRM.cs(19,72): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+LocRM.cs(19,113): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(32,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(48,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(50,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(50,43): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(109,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(109,42): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(495,32): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(495,49): error CS1519: Invalid token '2' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(831,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(832,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(833,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(834,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(836,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(836,50): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(838,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(840,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(842,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(844,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(846,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Controls\FloorPlan.cs(847,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+extensions.cs(229,21): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+extensions.cs(243,21): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Helper.cs(452,26): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Helper.cs(454,23): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Helper.cs(458,24): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Helper.cs(345,36): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Helper.cs(345,54): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+VideoSource.cs(1380,35): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+VideoSource.cs(70,49): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+VideoSource.cs(70,71): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Vision\GridMotionAreaProcessing.cs(132,36): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Vision\GridMotionAreaProcessing.cs(132,50): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(1952,33): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(2040,52): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(2044,56): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(2046,56): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(672,70): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(672,98): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(693,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(693,57): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(879,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(879,58): error CS1519: Invalid token '||' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(879,73): error CS1519: Invalid token '==' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(879,101): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(2094,22): error CS1513: } expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(2094,22): error CS1513: } expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+MainForm.cs(2094,22): error CS1513: } expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+WSWrapper.cs(54,57): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+WSWrapper.cs(54,75): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+WSWrapper.cs(125,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+WSWrapper.cs(125,70): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+WSWrapper.cs(125,98): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+WSWrapper.cs(125,113): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+WSWrapper.cs(125,128): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+X509.cs(12,54): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+X509.cs(12,72): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+X509.cs(14,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+X509.cs(14,67): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+X509.cs(14,86): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+Compilaci¢n del proyecto terminada "D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+"D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj" (build destino) (1) ->
+(ResolveAssemblyReferences destino) -> 
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3257: La referencia principal "System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" no se pudo resolver porque su versi¢n es superior "4.0.3.0" a la existente en la versi¢n de .NET Framework de destino actual. La que se encuentra en la versi¢n de .NET Framework de destino actual es "4.0.2.0". [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3258: La referencia principal "System.Text.Json, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" no se pudo resolver porque tiene una dependencia indirecta del ensamblado de .NET Framework "System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" cuya versi¢n es superior "4.0.3.0" a la que hay en la versi¢n de .NET Framework de destino actual "4.0.2.0". [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3258: La referencia principal "RestSharp, Version=107.3.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL" no se pudo resolver porque tiene una dependencia indirecta del ensamblado de .NET Framework "System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" cuya versi¢n es superior "4.0.3.0" a la que hay en la versi¢n de .NET Framework de destino actual "4.0.2.0". [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "Zlib.Portable, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3247: Se encontraron conflictos entre diferentes versiones del mismo ensamblado dependiente. [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+
+
+"D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj" (build destino) (1) ->
+(CoreCompile destino) -> 
+  CameraDiscovery\CameraScanner.cs(57,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  CameraDiscovery\CameraScanner.cs(57,52): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  CameraDiscovery\CameraScanner.cs(57,63): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  CameraDiscovery\URLDiscovery.cs(142,38): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Box.cs(23,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Box.cs(23,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Drive.cs(27,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Drive.cs(27,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Dropbox.cs(183,31): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Dropbox.cs(22,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Dropbox.cs(22,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Flickr.cs(21,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\Flickr.cs(21,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\OneDrive.cs(200,31): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\OneDrive.cs(23,67): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Cloud\OneDrive.cs(23,90): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\AutoCompleteTextbox.cs(130,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\AutoCompleteTextbox.cs(130,51): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Onvif\Behaviour\CustomMessageInspector.cs(13,53): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Onvif\Behaviour\CustomMessageInspector.cs(13,78): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Onvif\ConnectionStateInfo.cs(17,20): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Onvif\ConnectionStateInfo.cs(7,44): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Onvif\ConnectionStateInfo.cs(7,61): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Onvif\Security\DigestSecurityHeader.cs(25,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Onvif\Security\DigestSecurityHeader.cs(27,42): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Realtime\MediaWriter.cs(91,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Realtime\MediaWriter.cs(91,39): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(14,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(14,61): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(16,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(16,61): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(40,27): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(40,35): error CS1519: Invalid token '.' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(40,36): error CS1520: Method must have a return type [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(40,47): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(40,62): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\ConnectionOption.cs(42,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\NetworkDeviceList.cs(16,55): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\NetworkDeviceList.cs(16,82): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\RestartableStream.cs(116,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\RestartableStream.cs(118,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\RestartableStream.cs(120,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\RestartableStream.cs(122,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\X509.cs(14,54): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\X509.cs(14,72): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\X509.cs(16,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\X509.cs(16,67): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Server\X509.cs(16,86): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkAmcrest.cs(52,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkAmcrest.cs(52,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkDoorbird.cs(95,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkDoorbird.cs(95,43): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkFoscam.cs(324,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkFoscam.cs(324,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ConnectionFactory.cs(31,39): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ConnectionFactory.cs(35,44): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ConnectionFactory.cs(45,40): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ConnectionFactory.cs(46,40): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ConnectionFactory.cs(48,34): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ConnectionFactory.cs(50,20): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ConnectionFactory.cs(51,20): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\AppLoop.cs(20,55): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\AppLoop.cs(20,68): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(1732,37): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2343,17): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2632,29): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2636,41): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2919,21): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(3239,29): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(85,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(138,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(138,44): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(295,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(295,51): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(296,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(296,52): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(298,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(298,42): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(298,75): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(300,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(300,60): error CS1519: Invalid token '>' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(302,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(302,44): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(302,64): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(302,89): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(304,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(304,42): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(304,62): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(304,89): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(306,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(308,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(310,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(310,57): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2527,32): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2527,48): error CS1519: Invalid token '||' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2527,59): error CS1519: Invalid token '||' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2527,68): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2978,55): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\CameraWindow.cs(2978,78): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VideoPlayback.cs(433,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VideoPlayback.cs(433,50): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\FilterInfoCollection.cs(52,43): error CS1514: { expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\FilterInfoCollection.cs(52,59): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\FilterInfoCollection.cs(52,70): error CS1519: Invalid token '[' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\FilterInfoCollection.cs(52,78): error CS1031: Type expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\FilterInfoCollection.cs(52,78): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\VideoCapabilities.cs(77,25): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\VideoCapabilities.cs(29,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\VideoCapabilities.cs(29,49): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\VideoInput.cs(34,42): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\VideoInput.cs(34,61): error CS1031: Type expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  DirectShow\VideoInput.cs(34,95): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(78,33): error CS1513: } expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(79,24): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(79,28): error CS1519: Invalid token 'as' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(79,43): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(80,24): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(80,28): error CS1519: Invalid token 'as' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(80,42): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(83,17): error CS0116: A namespace cannot directly contain members such as fields or methods [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(86,41): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(86,60): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(86,78): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(153,37): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(153,54): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(157,17): error CS0116: A namespace cannot directly contain members such as fields or methods [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(167,47): error CS1001: Identifier expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(167,73): error CS1003: Syntax error, ']' expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Commands.cs(195,21): error CS1022: Type or namespace definition, or end-of-file expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(768,41): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(3616,25): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(3823,25): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(144,57): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(144,74): error CS1519: Invalid token '??' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(144,92): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(144,98): error CS1520: Method must have a return type [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(144,150): error CS1001: Identifier expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Configuration.cs(144,151): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm_Media.cs(233,47): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Merger.cs(115,28): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  PTZController.cs(114,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  PTZController.cs(114,66): error CS1519: Invalid token '==' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  RestartableStream.cs(116,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  RestartableStream.cs(118,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  RestartableStream.cs(120,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  RestartableStream.cs(122,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\AcmChatCodec.cs(63,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\AcmChatCodec.cs(63,75): error CS1519: Invalid token '8' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\ALawChatCodec.cs(13,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\ALawChatCodec.cs(19,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\ALawChatCodec.cs(21,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\ALawChatCodec.cs(21,63): error CS1519: Invalid token '8' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\ALawChatCodec.cs(23,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\ALawChatCodec.cs(23,47): error CS1520: Method must have a return type [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\ALawChatCodec.cs(23,58): error CS1031: Type expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\ALawChatCodec.cs(54,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\G722ChatCodec.cs(23,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\G722ChatCodec.cs(25,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\G722ChatCodec.cs(25,45): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\G722ChatCodec.cs(60,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\Gsm610ChatCodec.cs(12,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MicrosoftAdpcmChatCodec.cs(12,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MuLawChatCodec.cs(14,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MuLawChatCodec.cs(20,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MuLawChatCodec.cs(22,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MuLawChatCodec.cs(22,63): error CS1519: Invalid token '8' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MuLawChatCodec.cs(24,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MuLawChatCodec.cs(24,47): error CS1520: Method must have a return type [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MuLawChatCodec.cs(24,58): error CS1031: Type expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\MuLawChatCodec.cs(55,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\SpeexChatCodec.cs(51,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\SpeexChatCodec.cs(53,40): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\SpeexChatCodec.cs(53,59): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\SpeexChatCodec.cs(100,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\TrueSpeechChatCodec.cs(18,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\UncompressedPcmChatCodec.cs(12,28): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\UncompressedPcmChatCodec.cs(30,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\UncompressedPcmChatCodec.cs(30,74): error CS1519: Invalid token '8' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\codecs\UncompressedPcmChatCodec.cs(34,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\SampleAggregator.cs(81,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\SampleAggregator.cs(81,59): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\SpeechStreamer.cs(27,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\SpeechStreamer.cs(29,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\SpeechStreamer.cs(31,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\SpeechStreamer.cs(33,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\AudioInStream.cs(11,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\AudioInStream.cs(57,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\AudioInStream.cs(81,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\DirectStream.cs(25,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\DirectStream.cs(80,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\iSpyServerStream.cs(23,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\LocalDeviceStream.cs(18,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\LocalDeviceStream.cs(133,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\LocalDeviceStream.cs(133,42): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\MP3Stream.cs(19,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\WavStream.cs(17,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\WebStream.cs(19,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\WebStream.cs(76,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\streams\WebStream.cs(76,57): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkAxis.cs(95,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkAxis.cs(95,43): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkDeviceStream.cs(130,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkDeviceStream.cs(130,44): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkIPWebcamAndroid.cs(50,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkIPWebcamAndroid.cs(50,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkiSpyServer.cs(51,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkiSpyServer.cs(51,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkLocal.cs(81,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkNetworkKinect.cs(87,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\talk\TalkNetworkKinect.cs(87,45): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\VolumeWaveProvider16.cs(41,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Audio\VolumeWaveProvider16.cs(41,67): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\CloneStream.cs(35,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\CloneStream.cs(35,48): error CS1519: Invalid token '==' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\CloneStream.cs(35,76): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\CloneStream.cs(37,52): error CS1519: Invalid token '=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\CloneStream.cs(43,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\CloneStream.cs(43,43): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\CloneStream.cs(43,71): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\discovery\localdevice.cs(61,94): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\discovery\localdevice.cs(67,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\discovery\localdevice.cs(67,86): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\discovery\localdevice.cs(69,35): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\discovery\localdevice.cs(69,79): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(269,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(269,42): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(269,66): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(279,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(279,51): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(289,41): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(289,54): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(298,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(453,36): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VideoCaptureDevice.cs(453,52): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VLCStream.cs(19,7): error CS1041: Identifier expected; 'static' is a keyword [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\VLCStream.cs(19,14): error CS1518: Expected class, delegate, enum, interface, or struct [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\Ximea\XimeaCamera.cs(742,37): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\Ximea\XimeaCamera.cs(108,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\Ximea\XimeaCamera.cs(108,41): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\Ximea\XimeaVideoSource.cs(87,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Sources\Video\Ximea\XimeaVideoSource.cs(87,61): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ReadFullyStream.cs(19,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ReadFullyStream.cs(21,38): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ReadFullyStream.cs(23,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ReadFullyStream.cs(30,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Utilities\ReadFullyStream.cs(30,44): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(1611,29): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(64,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(66,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(66,44): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(438,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(438,52): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(439,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(439,51): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(441,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(443,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(445,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(447,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(449,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(453,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(1395,32): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(1395,48): error CS1519: Invalid token '||' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(1395,58): error CS1519: Invalid token ')' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(2723,55): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\VolumeLevel.cs(2723,78): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  HSLFilteringForm.cs(187,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  HSLFilteringForm.cs(187,41): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  NetworkTroubleshooter.cs(91,52): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  NetworkTroubleshooter.cs(96,21): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  NetworkTroubleshooter.cs(117,56): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  NetworkTroubleshooter.cs(140,60): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  QueueWithEvents.cs(20,26): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  QueueWithEvents.cs(20,41): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\camera.cs(739,25): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\camera.cs(321,26): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\camera.cs(321,35): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\camera.cs(324,27): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\camera.cs(324,37): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  LocRM.cs(19,72): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  LocRM.cs(19,113): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(32,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(48,33): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(50,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(50,43): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(109,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(109,42): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(495,32): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(495,49): error CS1519: Invalid token '2' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(831,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(832,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(833,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(834,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(836,34): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(836,50): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(838,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(840,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(842,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(844,31): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(846,29): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Controls\FloorPlan.cs(847,30): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  extensions.cs(229,21): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  extensions.cs(243,21): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Helper.cs(452,26): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Helper.cs(454,23): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Helper.cs(458,24): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Helper.cs(345,36): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Helper.cs(345,54): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  VideoSource.cs(1380,35): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  VideoSource.cs(70,49): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  VideoSource.cs(70,71): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Vision\GridMotionAreaProcessing.cs(132,36): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  Vision\GridMotionAreaProcessing.cs(132,50): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(1952,33): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(2040,52): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(2044,56): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(2046,56): error CS1056: Unexpected character '$' [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(672,70): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(672,98): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(693,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(693,57): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(879,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(879,58): error CS1519: Invalid token '||' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(879,73): error CS1519: Invalid token '==' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(879,101): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(2094,22): error CS1513: } expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(2094,22): error CS1513: } expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  MainForm.cs(2094,22): error CS1513: } expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  WSWrapper.cs(54,57): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  WSWrapper.cs(54,75): error CS1519: Invalid token '(' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  WSWrapper.cs(125,37): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  WSWrapper.cs(125,70): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  WSWrapper.cs(125,98): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  WSWrapper.cs(125,113): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  WSWrapper.cs(125,128): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  X509.cs(12,54): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  X509.cs(12,72): error CS1519: Invalid token ';' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  X509.cs(14,39): error CS1002: ; expected [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  X509.cs(14,67): error CS1519: Invalid token '&&' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+  X509.cs(14,86): error CS1519: Invalid token '!=' in class, struct, or interface member declaration [D:\Disco M\Desarrollos\iSpy-master\iSpy.csproj]
+
+    8 Advertencia(s)
+    339 Errores
+
+Tiempo transcurrido 00:00:05.68
